@@ -2,8 +2,12 @@ import logo from './logo.svg';
 import './App.css';
 // import tawkMessengerReactUmd from '@tawk.to/tawk-messenger-react';
 import ChatComponent from './components/chat';
-
+import { Crisp } from 'crisp-sdk-web';
+import { useEffect } from 'react';
 function App() {
+  useEffect(()=>{
+    Crisp.configure("bc2aa93f-3d02-4fe0-b320-2af8436a6665")
+  },[])
   return (
     <div className="App">
       <header className="App-header">
@@ -21,7 +25,7 @@ function App() {
         </a>
       </header>
 
-      <ChatComponent />
+      {/* <ChatComponent /> */}
     </div>
   );
 }
