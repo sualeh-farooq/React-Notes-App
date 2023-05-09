@@ -1,12 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
 // import tawkMessengerReactUmd from '@tawk.to/tawk-messenger-react';
-import TawkMessengerReact from "@tawk.to/tawk-messenger-react"
+import ChatComponent from './components/chat';
 
 function App() {
   return (
     <div className="App">
-      <TawkMessengerReact propertyId="1h000s9dh" widgetId="1h000s9dh" />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -21,6 +20,8 @@ function App() {
           Learn React
         </a>
       </header>
+
+      <ChatComponent />
     </div>
   );
 }
