@@ -1,38 +1,43 @@
 .App {
   text-align: center;
+  background-color: #e3e9ff;
+  height: 100vh;
+  width: 100vw;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.notes-card-parent {
+  flex-direction: column !important;
+}
+.notes-card-parent>h3 {
+color:white !important;
+background-color: #ad7eea ;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.notes-li:hover{
+  background-color: rgba(128, 128, 128,0.3) !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.notes-li{
+  padding: 5px;
+  cursor: pointer;
+  margin: 10px ;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
 
-.App-link {
-  color: #61dafb;
+.notes-icon {
+  font-size: x-large !important;
+  color: rgba(0, 0, 0,0.4) !important;
+}
+.add-note-btn{
+  background-color: #ad7eea  !important;
+  border: none !important;
+  width: 25% !important;
+  font-size: large !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.save-note {
+  background-color: #ad7eea !important;
+  border: none !important;
 }
