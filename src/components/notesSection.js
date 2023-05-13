@@ -290,7 +290,7 @@ export default function NotesComponent() {
                 </Form.Group>
               </Modal.Body>
               <Modal.Footer>
-                <Button className="bg-dark border-0" onClick={handleClose}>
+                <Button className="bg-dark border-0" onClick={ToggleUpdateModal}>
                   Close
                 </Button>
                 <Button className="save-note" onClick={() => {

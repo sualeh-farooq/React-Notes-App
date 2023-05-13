@@ -1,8 +1,9 @@
-import logo from './logo.svg';
+import { useEffect } from 'react';
 import './App.css';
-import { Row, Col, Card } from 'react-bootstrap';
+import { Row, Col } from 'react-bootstrap';
 import NotesComponent from './components/notesSection';
 function App() {
+
 
   return (
 
