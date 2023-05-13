@@ -57,7 +57,6 @@ background-color: #ad7eea ;
 .view-note-space {
   display: flex !important;
   flex-direction: column !important;
-  border: 2px solid red;
 }
 
 
