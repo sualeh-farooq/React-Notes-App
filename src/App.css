@@ -3,6 +3,7 @@
   background-color: #e3e9ff;
   height: 100vh;
   width: 100vw;
+  overflow: hidden !important ;
 }
 
 .notes-card-parent {
