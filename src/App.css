@@ -5,7 +5,6 @@
   width: 100vw;
 }
 
-
 .notes-card-parent {
   flex-direction: column !important;
 }
@@ -30,14 +29,42 @@ background-color: #ad7eea ;
   font-size: x-large !important;
   color: rgba(0, 0, 0,0.4) !important;
 }
+.notes-icon:hover {
+  color: black !important;
+}
 .add-note-btn{
   background-color: #ad7eea  !important;
   border: none !important;
-  width: 25% !important;
+  width: 30% !important;
   font-size: large !important;
 }
+.add-note-btn:hover , .save-note:hover{
+  background-color: #9c69df  !important;
 
+}
 .save-note {
   background-color: #ad7eea !important;
   border: none !important;
 }
+
+
+
+.my-3 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.view-note-space {
+  display: flex !important;
+  flex-direction: column !important;
+  border: 2px solid red;
+}
+
+
+@media screen and (max-width: 768px) {
+  .add-note-btn , .notes-card-parent {
+    width: 100% !important;
+  }
+
+}
+

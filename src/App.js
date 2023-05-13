@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import { Row, Col, Card } from 'react-bootstrap';
-import NotesAdd from './components/notesSection';
+import NotesComponent from './components/notesSection';
 function App() {
 
   return (
@@ -13,9 +13,7 @@ function App() {
       <div>
         <Row>
           <Col className='d-flex justify-content-center' sm="12" md="12" lg="12" >
-            
-              <NotesAdd />
-            
+              <NotesComponent />
           </Col>
         </Row>
 
