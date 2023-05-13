@@ -64,6 +64,11 @@ background-color: #ad7eea ;
   .add-note-btn , .notes-card-parent {
     width: 100% !important;
   }
+  .notes-li>div{
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 15px;
+  }
 
 }
 
